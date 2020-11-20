@@ -4,6 +4,7 @@ import { ClasificationListComponent } from './clasification-list/clasification-l
 import { ClasificationDetailComponent } from './clasification-detail/clasification-detail.component';
 import { ClasificationCreateComponent } from './clasification-create/clasification-create.component';
 import { ClasificationRoutingModule } from './clasification.routing.module';
+import { MaterialModule } from '../../material.module';
 
 
 
@@ -15,7 +16,8 @@ import { ClasificationRoutingModule } from './clasification.routing.module';
   ],
   imports: [
     CommonModule,
-    ClasificationRoutingModule
+    ClasificationRoutingModule,
+    MaterialModule
   ]
 })
 export class ClasificationModule { }
